@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DD950EAE1D4467C1007D8F0C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD950EAD1D4467C1007D8F0C /* main.swift */; };
+		DD950EB51D4467E2007D8F0C /* SortingAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD950EB41D4467E2007D8F0C /* SortingAlgorithm.swift */; };
+		DD950EB71D446829007D8F0C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD950EB61D446829007D8F0C /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,8 @@
 
 /* Begin PBXFileReference section */
 		DD950EAA1D4467C1007D8F0C /* SortingAlgorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SortingAlgorithms; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD950EAD1D4467C1007D8F0C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		DD950EB41D4467E2007D8F0C /* SortingAlgorithm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortingAlgorithm.swift; sourceTree = "<group>"; };
+		DD950EB61D446829007D8F0C /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,8 @@
 		DD950EAC1D4467C1007D8F0C /* SortingAlgorithms */ = {
 			isa = PBXGroup;
 			children = (
-				DD950EAD1D4467C1007D8F0C /* main.swift */,
+				DD950EB41D4467E2007D8F0C /* SortingAlgorithm.swift */,
+				DD950EB61D446829007D8F0C /* main.swift */,
 			);
 			path = SortingAlgorithms;
 			sourceTree = "<group>";
@@ -119,7 +122,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD950EAE1D4467C1007D8F0C /* main.swift in Sources */,
+				DD950EB71D446829007D8F0C /* main.swift in Sources */,
+				DD950EB51D4467E2007D8F0C /* SortingAlgorithm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
